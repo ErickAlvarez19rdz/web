@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="tablas-precio.css">
+</head>
+<body>
+    <section class= "container flex text-center">
+        <div class="columna"> 
+            <h2>plan uno</h2>
+            <p class="precio">$500</p>
+            <p>aribaaaaa las chivas</p>
+            <hr>
+            <p> estadias</p>
+            <p>otro parrafo</p>
+            <p>otro parrafo</p>
+            <hr>
+            <a href="#" class="btn-precio">comprar</a>
+        </div>
+        <div class="columna"> 
+            <h2>plan uno</h2>
+            <p class="precio">$500</p>
+            <p>aribaaaaa las chivas</p>
+            <hr>
+            <p> estadias</p>
+            <p>otro parrafo</p>
+            <p>otro parrafo</p>
+            <hr>
+            <a href="#" class="btn-precio">comprar</a>
+        </div>
+        <div class="columna"> 
+            <h2>plan uno</h2>
+            <p class="precio">$500</p>
+            <p>aribaaaaa las chivas</p>
+            <hr>
+            <p> estadias</p>
+            <p>otro parrafo</p>
+            <p>otro parrafo</p>
+            <hr>
+            <a href="#" class="btn-precio">comprar</a>
+
+        </div>
+        <div class="columna"> 
+            <h2>plan uno</h2>
+            <p class="precio">$500</p>
+            <p>aribaaaaa las chivas</p>
+            <hr>
+            <p> estadias</p>
+            <p>otro parrafo</p>
+            <p>otro parrafo</p>
+            <hr>
+            <a href="#" class="btn-precio">comprar</a>
+        </div>
+    </section>
+</body>
+</html>
+
+
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+h2{
+    font-weight: 400;   
+}
+p{
+    font-weight: 300;  
+}
+.container{
+    margin: 0 auto;
+    width: 90%;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.text-center{
+    text-align: center;
+}
+.columna{
+ background: gray; 
+ border: 1px solid #333; 
+ margin: 0 auto;
+ padding: 10px;
+ border-radius: 5px;
+ box-shadow: 10px 10px 5px gray;
+ width: 23%;
+ box-sizing: border-box;
+}
+.precio{
+    font-size: 50px;
+    color: turquoise;
+}
+.btn-precio{
+    background: salmon;
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+.btn-precio:hover{
+    background: blue;
+}
+@media(max-width: 1070px){
+    .columna{
+        width: 45%;
+        margin-bottom: 20px;
+    }
+}
+@media(max-width: 600px){
+    .columna{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
