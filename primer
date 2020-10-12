@@ -34,6 +34,7 @@
             <p> estadias</p>
             <p>otro parrafo</p>
             <p>otro parrafo</p>
+            <img src="chivas.png "width="60" height="60">
             <hr>
             <a href="#" class="btn-precio">comprar</a>
         </div>
@@ -45,6 +46,7 @@
             <p> estadias</p>
             <p>otro parrafo</p>
             <p>otro parrafo</p>
+            <img src="chivas.png "width="60" height="60">
             <hr>
             <a href="#" class="btn-precio">comprar</a>
         </div>
@@ -56,6 +58,7 @@
             <p> estadias</p>
             <p>otro parrafo</p>
             <p>otro parrafo</p>
+            <img src="chivas.png "width="60" height="60">
             <hr>
             <a href="#" class="btn-precio">comprar</a>
 
@@ -68,6 +71,7 @@
             <p> estadias</p>
             <p>otro parrafo</p>
             <p>otro parrafo</p>
+            <img src="chivas.png "width="60" height="60">
             <hr>
             <a href="#" class="btn-precio">comprar</a>
         </div>
@@ -173,13 +177,4 @@ p{
         margin-bottom: 20px;
     }
 }
-
-
-
-
-
-
-
-
-
 
