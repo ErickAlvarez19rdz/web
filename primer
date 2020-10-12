@@ -5,9 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="tablas-precio.css">
+    <link rel="stylesheet" href="trabajo.css">
 </head>
 <body>
+    <nav>
+        <button class="nav-boton" onclick="accion()">menu</button>
+        <a href="#" class="nav-enlace desaparece">inicio</a>
+        <a href="#" class="nav-enlace desaparece">nosotros</a>
+        <a href="#" class="nav-enlace desaparece">servicio</a>
+        <a href="#"class="nav-enlace desaparece">contacto</a>
+    </nav>
+    <hr>
+    <script>
+        function accion(){
+            var ancla= document.getElementsByClassName('nav-enlace');
+            for(var i = 0; i < ancla.length; i++){
+                ancla[i].classList.toggle('desaparece');
+            }
+
+        }
+    </script>
     <section class= "container flex text-center">
         <div class="columna"> 
             <h2>plan uno</h2>
@@ -60,6 +77,44 @@
 
 
 
+.nav-enlace{
+    display: inline-block;
+    background: salmon;
+    color: seashell;
+    padding: 10px 30px;
+    text-decoration: none;
+
+}
+.nav-enlace:hover{
+    background: green;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background:black;
+    padding: 20px;
+}
+.nav-boton{
+    background: salmon;
+    color: white;
+    border: 2px solid white;
+    display: none;
+}
+@media (max-width: 600px){
+    nav{
+        background: black;
+        flex-direction: column;
+    }
+    .nav-enlace{
+        margin: 10px 0;
+    }
+    .nav-boton{
+        display: inline-block;
+    }
+    .desaparece{
+        display: none;
+    }
+}
 body{
     font-family: 'Lato', sans-serif;
 }
@@ -118,6 +173,7 @@ p{
         margin-bottom: 20px;
     }
 }
+
 
 
 
